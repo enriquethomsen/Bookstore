@@ -1,8 +1,11 @@
 import express from 'express';
-import { PORT, MONGO_URL } from './config.js';
+/* import { PORT, MONGO_URL } from './config.js'; */
 import mongoose from 'mongoose';
 import booksRoute from './routes/booksRoute.js';
 import cors from 'cors';
+
+const PORT = PORT
+const MONGO_URL = Mongo_URL
 
 const app = express();
 
